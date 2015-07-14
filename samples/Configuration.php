@@ -37,7 +37,7 @@ class Configuration
 				"service.SandboxEmailAddress" => "pp.devtools@gmail.com"
 				);
 		
-		return array_merge($config, self::getConfig());;
+		return array_merge($config, self::getConfig());
 	}
 
 }
